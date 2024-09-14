@@ -10,6 +10,7 @@ The project consists of the following main files:
 HTML: Structure of the site's pages.
 CSS: Styles for presentation and responsiveness.
 JavaScript: Interactive functionalities, such as the image carousel with Swiper.js.
+
 Directories and Files
 index.html: Main HTML file of the site.
 css/: Directory containing the style files.
