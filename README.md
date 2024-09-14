@@ -1,13 +1,13 @@
 # SparkyRobocup
-Projeto do Site de Robô
+Projeto de landing page do robô Sparky.
 # Descrição
-Este projeto é um site dedicado a um robô, incluindo informações sobre hardware, vídeos e apresentações. O site utiliza HTML, CSS e JavaScript para criar um layout responsivo e interativo. As principais bibliotecas utilizadas incluem Swiper.js para a galeria de imagens e estilos personalizados para cada seção.
+Este projeto é uma landing page dedicada ao robô Sparky, um challenge que desenvolvi durante a graduação. Inclui informações sobre hardware, vídeos e apresentações. O site utiliza HTML, CSS e JavaScript para criar um layout responsivo e interativo. As principais bibliotecas utilizadas incluem Swiper.js para a galeria de imagens e estilos personalizados para cada seção e o framework Bootstrap.
 
 # Estrutura do Projeto
 O projeto é composto pelos seguintes arquivos principais:
 
 HTML: Estrutura das páginas do site.
-CSS: Estilos para a apresentação e responsividade das seções.
+CSS: Estilos para a apresentação e responsividade.
 JavaScript: Funcionalidades interativas, como o carrossel de imagens com Swiper.js.
 
 # Diretórios e Arquivos
@@ -37,6 +37,7 @@ Abra o arquivo index.html em um navegador para visualizar o site.
 HTML5: Estruturação das páginas.
 CSS3: Estilização e responsividade.
 JavaScript: Interatividade e funcionalidades.
+Bootstrap: Framework CSS para design responsivo e componentes prontos.
 Swiper.js: Biblioteca para carrosséis de imagens.
 
 # Estrutura de Estilo
@@ -47,34 +48,6 @@ Variáveis de Cores e Fontes:
 --font-color: Cor do texto.
 --font-text: Fonte do texto.
 --font-title: Fonte dos títulos.
-Seções do Site
-Rodapé (Footer)
-
-.footer-contact: Estilos para o rodapé de contato.
-.footer-info: Informações de contato.
-Hardware
-
-.robot-hardware: Seção com fundo de imagem e informações sobre o hardware do robô.
-Navegação
-
-.nav-link, .navbar-brand: Estilos para links de navegação e logotipos.
-.offcanvas-body: Estilo do menu offcanvas.
-Equipe (Horizon)
-
-.horizon: Seção com fundo de imagem e informações sobre a equipe.
-.member: Estilos para os membros da equipe.
-Robô
-
-.robot: Seção principal com fundo de imagem e Swiper.js para galeria de imagens.
-Apresentação
-
-.presentation: Seção de apresentação com fundo de imagem e botão de clique.
-Robocup
-
-.robocup: Seção sobre a Robocup com fundo de imagem e logotipos.
-Vídeos
-
-.robot-videos: Seção para vídeos com fundo de imagem e estilo de grid.
 
 JavaScript
 Swiper.js
@@ -105,9 +78,3 @@ const swiper = new Swiper('.swiper', {
         }
     }
 });
-
-# Contribuição
-Sinta-se à vontade para contribuir com melhorias ou correções. Faça um fork do repositório, crie uma branch com suas alterações e envie um pull request.
-
-# Licença
-Este projeto é licenciado sob a Licença MIT.
