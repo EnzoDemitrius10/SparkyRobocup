@@ -48,12 +48,12 @@ Variáveis de Cor e Fonte:
 --font-color: Cor do texto.
 --font-text: Fonte do texto.
 --font-title: Fonte do título.
+
 JavaScript
 O Swiper.js é configurado no arquivo swiper-config.js para criar um carrossel de imagens com diferentes visualizações dependendo do tamanho da tela.
 
 Código de Configuração do Swiper.js
-javascript
-Copiar código
+```
 const swiper = new Swiper('.swiper', {
     speed: 400,
     spaceBetween: 10,
@@ -78,3 +78,4 @@ const swiper = new Swiper('.swiper', {
         }
     }
 });
+```
