@@ -1,57 +1,59 @@
 # SparkyRobocup
-Sparky robot landing page project.
 
-# Description
-This project is a landing page dedicated to the Sparky robot, a challenge I developed during my undergraduate studies. It includes information about hardware, videos, and presentations. The site uses HTML, CSS, and JavaScript to create a responsive and interactive layout. Key libraries used include Swiper.js for the image gallery and custom styles for each section, as well as the Bootstrap framework.
+## Descrição
+Este projeto é uma landing page dedicada ao robô Sparky, um desafio que desenvolvi durante meus estudos de graduação. A página inclui informações sobre hardware, vídeos e apresentações. O site utiliza HTML, CSS e JavaScript para criar um layout responsivo e interativo. As principais bibliotecas utilizadas incluem Swiper.js para a galeria de imagens e o framework Bootstrap.
 
-# Project Structure
-The project consists of the following main files:
+## Estrutura do Projeto
+O projeto consiste nos seguintes arquivos principais:
 
-HTML: Structure of the site's pages.
-CSS: Styles for presentation and responsiveness.
-JavaScript: Interactive functionalities, such as the image carousel with Swiper.js.
+- **HTML**: Estrutura das páginas do site.
+- **CSS**: Estilos para apresentação e responsividade.
+- **JavaScript**: Funcionalidades interativas, como o carrossel de imagens com Swiper.js.
 
-Directories and Files
-index.html: Main HTML file of the site.
-css/: Directory containing the style files.
-header.css: Styles for the header.
-main.css: General styles.
-images.css: Styles for sections with images.
-gun.css: Styles for the robot’s weapon section.
-hardware.css: Styles for the hardware section.
-videos.css: Styles for the videos section.
-robocup.css: Styles for the Robocup section.
-horizon.css: Styles for the team section.
-footer.css: Styles for the footer.
-js/: Directory containing JavaScript files.
-swiper-config.js: Swiper.js configuration for the image gallery.
+### Diretórios e Arquivos
+- **index.html**: Arquivo principal HTML do site.
+- **css/**: Diretório contendo os arquivos de estilo.
+  - **header.css**: Estilos para o cabeçalho.
+  - **main.css**: Estilos gerais.
+  - **images.css**: Estilos para seções com imagens.
+  - **gun.css**: Estilos para a seção da arma do robô.
+  - **hardware.css**: Estilos para a seção de hardware.
+  - **videos.css**: Estilos para a seção de vídeos.
+  - **robocup.css**: Estilos para a seção do Robocup.
+  - **horizon.css**: Estilos para a seção da equipe.
+  - **footer.css**: Estilos para o rodapé.
+- **js/**: Diretório contendo arquivos JavaScript.
+  - **swiper-config.js**: Configuração do Swiper.js para a galeria de imagens.
 
-# Installation
-Clone this repository to your local machine:
-git clone https://github.com/your-username/your-repository.git
+## Instalação
+Clone este repositório para sua máquina local:
+git clone https://github.com/EnzoDemitrius10/SparkyRobocup.git
 
-Navigate to the project directory:
-cd your-repository
-Open the index.html file in a browser to view the site.
+Navegue até o diretório do projeto:
+cd SparkyRobocup
+Abra o arquivo index.html em um navegador para visualizar o site.
 
-# Technologies Used
-HTML5: Page structuring.
-CSS3: Styling and responsiveness.
-JavaScript: Interactivity and functionalities.
-Bootstrap: CSS framework for responsive design and ready-made components.
-Swiper.js: Library for image carousels.
-Style Structure
-Global CSS
+Tecnologias Utilizadas
+HTML5: Estruturação das páginas.
+CSS3: Estilização e responsividade.
+JavaScript: Interatividade e funcionalidades.
+Bootstrap: Framework CSS para design responsivo e componentes prontos.
+Swiper.js: Biblioteca para carrosséis de imagens.
+Estrutura de Estilos
+CSS Global
 
-Color and Font Variables:
---first-color: Main color.
---second-color: Secondary color.
---font-color: Text color.
---font-text: Text font.
---font-title: Title font.
-JavaScript Swiper.js Swiper.js is configured in the swiper-config.js file to create an image carousel with different views depending on the screen size.
+Variáveis de Cor e Fonte:
+--first-color: Cor principal.
+--second-color: Cor secundária.
+--font-color: Cor do texto.
+--font-text: Fonte do texto.
+--font-title: Fonte do título.
+JavaScript
+O Swiper.js é configurado no arquivo swiper-config.js para criar um carrossel de imagens com diferentes visualizações dependendo do tamanho da tela.
 
-# JavaScript
+Código de Configuração do Swiper.js
+javascript
+Copiar código
 const swiper = new Swiper('.swiper', {
     speed: 400,
     spaceBetween: 10,
