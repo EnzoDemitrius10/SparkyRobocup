@@ -33,7 +33,7 @@ Navegue até o diretório do projeto:
 cd SparkyRobocup
 Abra o arquivo index.html em um navegador para visualizar o site.
 
-Tecnologias Utilizadas
+# Tecnologias Utilizadas
 HTML5: Estruturação das páginas.
 CSS3: Estilização e responsividade.
 JavaScript: Interatividade e funcionalidades.
@@ -42,14 +42,14 @@ Swiper.js: Biblioteca para carrosséis de imagens.
 Estrutura de Estilos
 CSS Global
 
-Variáveis de Cor e Fonte:
+# Variáveis de Cor e Fonte:
 --first-color: Cor principal.
 --second-color: Cor secundária.
 --font-color: Cor do texto.
 --font-text: Fonte do texto.
 --font-title: Fonte do título.
 
-JavaScript
+# JavaScript
 O Swiper.js é configurado no arquivo swiper-config.js para criar um carrossel de imagens com diferentes visualizações dependendo do tamanho da tela.
 
 Código de Configuração do Swiper.js
